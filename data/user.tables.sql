@@ -1,0 +1,27 @@
+/* USERS */
+
+CREATE TABLE users (
+    `user_id`  INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    `email` VARCHAR(250) NOT NULL,
+    `name` VARCHAR(150) NOT NULL,
+    `last_name` VARCHAR(250) NOT NULL,
+);
+
+CREATE TABLE passwords (
+    `password_id` INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
+);
+
+CREATE TABLE `users_passwords` (
+    `user_password_id` INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    `user_id` INTEGER UNSIGNED NOT NULL,
+    `password_id` INTEGER UNSIGNED NOT NULL
+);
+
+/* User preferences  */
+CREATE TABLE `users-preferences` (
+    'preference_id' INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL,    
+    `user_id` INTEGER UNSIGNED NOT NULL,
+    `` INTEGER UNSIGNED NOT NULL
+);
+
