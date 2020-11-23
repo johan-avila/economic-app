@@ -6,8 +6,8 @@ import { UsersModule } from './users/users.module';
 import { PreferencesModule } from './preferences/preferences.module';
 
 @Module({
-  imports: [UsersModule, PreferencesModule],
-  controllers: [AppController],
-  providers: [AppService],
+    imports: [UsersModule, PreferencesModule],
+    controllers: [AppController],
+    providers: [AppService],
 })
 export class AppModule {}

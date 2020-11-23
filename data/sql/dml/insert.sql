@@ -45,15 +45,17 @@ VALUES  ("Aguascalientes"),
         ("Yucatan"),
         ("Zacatecas");
 
+/* 
+("Total actividades primaria por estado"),
+ */
 INSERT INTO concepts (concept) 
-VALUES  ("Total actividades primaria Total nacional"),
-        ("Total actividades primaria por estado"),
-        ("11 Agricultura > cria y explotacion de animales -aprovechamiento forestal- pesca y caza"),
+VALUES  ("11 Agricultura > cria y explotacion de animales -aprovechamiento forestal- pesca y caza"),
        /* Avtividaesds secundarias */ 
-        ("Total actividades secundarias Total nacional"),
         ("Total actividades secundarias por estado"), 
-        ("21 Mineria > Total mineria"),  
-        ("21 Mineria > Mineria petrolera"),  
+        ("21 Mineria > Total mineria");
+
+INSERT INTO concepts (concept) 
+    VALUES ("21 Mineria > Mineria petrolera"),  
         ("21 Mineria > Mineria no petrolera"),  
         ("22 Generacion- transmision y distribucion de energia electrica suministro de  agua y de gas por ductos al consumidor final"),  
         ("23 Construccion por estado"),
@@ -67,11 +69,11 @@ VALUES  ("Total actividades primaria Total nacional"),
         ("31-33 Industrias manufactureras > 324-326 Fabricacion de productos derivados del petroleo y carbon; Industria quimica; Industria del plastico y del hule"),  
         ("31-33 Industrias manufactureras > 327 Fabricacion de productos a base de minerales no metalicos"),  
         ("31-33 Industrias manufactureras > 331-332 Industrias metalicas basicas; Fabricacion de productos metalicos"),  
-        ("31-33 Industrias manufactureras > 333-336 Fabricacion de maquinaria y equipo; Fabricacion de equipo de computacion comunicacion medicion y de otros equipos componentes y accesorios electronicos electronicos; Fabricacion de accesorios aparatos electricos y equipo de g"), 
+        ("31-33 Industrias manufactureras > 333-336 Fabricacion de equipo de computacion comunicacion medicion y de otros equipos componentes y accesorios electronicos electronicos; Fabricacion de accesorios aparatos electricos y equipo de g"), 
         ("31-33 Industrias manufactureras > 337 Fabricacion de muebles colchones y persianas"),  
         ("31-33 Industrias manufactureras > 339 Otras industrias manufactureras"),  
         /* Actividades terciarias */
-        ("Total actividades terciarias"),  
+        ("Total actividades terciarias por estado"),  
         ("43 Comercio al por mayor"),  
         ("46 Comercio al por menor"),  
         ("48-49 Transportes correos y almacenamiento"),  
